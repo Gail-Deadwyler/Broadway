@@ -1,11 +1,55 @@
+/* Styling for Broadway front page */
 html {
   text-align: center;
   font-family: Helvetica;
 }
-.top-banner {
 
+.top-banner {
+  background-image: url("../images/the-flatiron-building.png");
 }
+
 h1 {
   font-size: 70px;
   font-weight: bold;
+  color: white;
+}
+
+.top-banner a {
+  font-size: 18px;
+  color: white;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+.middle-banner h3 {
+  background-image: url("../images/the-flatiron-building.png");
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: dimgray;
+  text-align: left;
+}
+
+.footer p {
+  font-size: 11px;
+  color: white;
+}
+
+.footer a {
+  font-size: 18px;
+  color: white;
 }
